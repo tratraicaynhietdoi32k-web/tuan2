@@ -1,0 +1,218 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* ================= CSS CHUNG CHO CẢ 2 BÀI ================= */
+.wrapper-bai1, .wrapper-bai2 {
+    width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Menu Bar */
+.menu-bar {
+    overflow: hidden;
+}
+
+    .menu-bar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-bar li {
+        float: left;
+        padding: 12px 25px;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+/* Header Section */
+.header-section {
+    position: relative;
+    height: 140px;
+}
+
+    .header-section h1 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+.logo-text {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+}
+
+/* Main Content & Sidebar Layout */
+.main-content-container {
+    overflow: hidden;
+}
+
+.content-box {
+    float: left;
+    width: 58%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.sidebar-box {
+    float: right;
+    width: 42%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+    .content-box h2, .sidebar-box h2 {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .content-box p, .sidebar-box p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+    .project-item b {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+/* Footer Section */
+.footer-section {
+    overflow: hidden;
+    padding: 15px 30px;
+    font-size: 11px;
+}
+
+.footer-left {
+    float: left;
+    line-height: 1.4;
+}
+
+.footer-right {
+    float: right;
+    line-height: 1.4;
+}
+
+    .footer-right a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+        .footer-right a:hover {
+            text-decoration: underline;
+        }
+
+
+/* ================= CSS RIÊNG CHO BÀI 1 (MÀU NỀN NỔI BẬT) ================= */
+.wrapper-bai1 .menu-bar {
+    background-color: #b93b3b;
+}
+
+    .wrapper-bai1 .menu-bar li {
+        color: #ddd;
+    }
+
+        .wrapper-bai1 .menu-bar li.active {
+            background-color: #d9534f;
+            color: #fff;
+        }
+
+.wrapper-bai1 .header-section {
+    background-color: #3b5998;
+}
+
+.wrapper-bai1 .content-box {
+    background-color: #66cc33;
+    color: #fff;
+}
+
+    .wrapper-bai1 .content-box a {
+        color: #ffff00;
+    }
+
+.wrapper-bai1 .sidebar-box {
+    background-color: #558833;
+    color: #fff;
+}
+
+.wrapper-bai1 .footer-section {
+    background-color: #889933;
+    color: #fff;
+}
+
+    .wrapper-bai1 .footer-section a {
+        color: #fff;
+    }
+
+
+/* ================= CSS RIÊNG CHO BÀI 2 (MÀU NỀN TRẮNG, TINH TẾ) ================= */
+.wrapper-bai2 .menu-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+    .wrapper-bai2 .menu-bar li {
+        color: #555;
+    }
+
+        .wrapper-bai2 .menu-bar li.active {
+            background-color: #e67300;
+            color: #fff;
+        }
+
+.wrapper-bai2 .header-section {
+    background-color: #e67300;
+}
+
+.wrapper-bai2 .content-box {
+    background-color: #fff;
+    color: #333;
+}
+
+    .wrapper-bai2 .content-box h2, .wrapper-bai2 .sidebar-box h2 {
+        color: #cc6600;
+    }
+
+    .wrapper-bai2 .content-box a, .wrapper-bai2 .sidebar-box a {
+        color: #cc6600;
+        text-decoration: none;
+    }
+
+        .wrapper-bai2 .content-box a:hover, .wrapper-bai2 .sidebar-box a:hover {
+            text-decoration: underline;
+        }
+
+.wrapper-bai2 .sidebar-box {
+    background-color: #fff;
+    color: #333;
+}
+
+.wrapper-bai2 .footer-section {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    color: #777;
+}

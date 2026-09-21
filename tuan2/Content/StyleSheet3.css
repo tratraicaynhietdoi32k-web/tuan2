@@ -1,0 +1,191 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #b93b3b;
+    border-bottom: 2px solid #b93b3b;
+    padding-bottom: 5px;
+    width: 800px;
+    margin: 20px auto;
+}
+
+/* --- TABLE LAYOUT CHO BÀI 1 & BÀI 2 --- */
+.layout-table {
+    width: 800px;
+    border-collapse: collapse;
+    border: 2px solid #333;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+    .layout-table td {
+        border: 1px solid #333;
+        padding: 12px;
+        vertical-align: top;
+    }
+
+/* --- BÀI 1 --- */
+.bai1-table {
+    height: 500px;
+}
+
+.menu-col {
+    width: 25%;
+    background-color: #f2f2f2;
+}
+
+.menu-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.menu-content li {
+    margin-bottom: 8px;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.logo-col {
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+    .logo-col h2 {
+        margin: 0;
+        border: none;
+        width: auto;
+    }
+
+.content-col {
+    padding: 0;
+}
+
+.inner-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+    .inner-table td {
+        border: 1px solid #333;
+        padding: 12px;
+    }
+
+.inner-left, .inner-right {
+    width: 50%;
+}
+
+.inner-bottom {
+    background-color: #fafafa;
+}
+
+/* --- BÀI 2 --- */
+.bai2-table {
+    height: 400px;
+    text-align: center;
+}
+
+.t-menu {
+    background-color: #e67300;
+    color: #fff;
+    font-weight: bold;
+    height: 35px;
+}
+
+.t-header {
+    background-color: #3b5998;
+    color: #fff;
+    font-weight: bold;
+    height: 60px;
+}
+
+.t-left, .t-right {
+    width: 20%;
+    background-color: #f2f2f2;
+}
+
+.t-content {
+    width: 60%;
+    background-color: #fff;
+    text-align: left;
+}
+
+.t-footer {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+}
+
+
+/* --- DIV & HTML5 LAYOUT CHO BÀI 3 & BÀI 4 --- */
+.layout-container {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.div-menu, .html5-nav {
+    background-color: #e67300;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.div-header, .html5-header {
+    background-color: #3b5998;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.div-middle-container, .html5-middle-container {
+    overflow: hidden;
+}
+
+.div-sidebar-left, .html5-aside-left,
+.div-sidebar-right, .html5-aside-right {
+    float: left;
+    width: 20%;
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 160px;
+}
+
+.div-content, .html5-content {
+    float: left;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 160px;
+}
+
+.div-footer, .html5-footer {
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    clear: both;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #333;
+}
